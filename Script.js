@@ -75,7 +75,10 @@ items.forEach(element => {
     element.remove();
 });
 const st =document.getElementById("status");
-st.textContent="!!!!!Thanks for Booking and Come againe for Our Services";
+st.textContent="!!!!!Thanks for Booking and Come again for Our Services";
 st.style.color = "Green";
+total =0;
+const final = document.getElementById("Fa");
+    final.textContent= "$"+total;
 }
     
