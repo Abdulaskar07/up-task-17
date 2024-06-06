@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 17</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Logo</div>
+        <div class="nav-icon">
+            <ul>
+                <li>Home</li>
+                <li>Services</li>
+                <li>Contact us</li>
+                <li>About us</li>
+            </ul>
+        </div>
+        <div class="username">
+            <h4>Username</h4>
+            <p>--*></p>
+        </div>
+    </nav>
+    <div class="main-container">
+        <div class="left">
+            <div class="added-items">
+                <h3>Added Items</h3>
+                <div>
+                    <table class="Service" id="Service">
+                        <tr >
+                            <th>S.no</th>
+                            <th>Service Name</th>
+                            <th>Price</th>
+                        </tr>
+                        
+                    </table>
+                </div>
+
+                <footer>
+                    <h2>Total</h2>
+                    <h2 id="Fa">$0</h2>
+                </footer>
+                
+
+            </div>
+            <div class="Booknow">
+                <h2>Book Now</h2>
+                <form action="">
+                    <div class="fullname">
+                        <label for="fullname">Full Name</label>
+                        <input type="text" placeholder="Abdul Askar s" required>
+                    </div>
+                    <div class="emailphone">
+                        <div>
+                            <label for="Email">Email</label>
+                            <input type="email" placeholder="XYZ@gmail.com" required>
+                        </div>
+                        <div>
+                            <label for="Phone Number">Phone Number</label>
+                            <input type="text" placeholder="XXXXX XXXXX" required>
+                        </div>
+                    </div>
+                    <div>
+                        <button onclick="Book()">Book Now</button>
+                        <p id="status">Add item to the cart for booking</p>
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="right">
+            <div class="des">
+                <h1>Browse Our Services</h1>
+                <p>Click on the add to cart button to add the services to your cart or press skip</p>
+            </div>
+            <div class="services">
+                <div class="img">
+                    <img  alt="SErvice image" id="img">
+                </div>
+                <div class="price">
+                    <p class="service-name" id="service-name"></p>
+                    <p class="price-tag" id="price-tag"></p>
+                </div>
+                <div class="button">
+                    <button class="skip" onclick="Skip()">Skip Item</button>
+                    <button class="add" onclick="Add()">Add Item</button>
+                </div>
+            </div>
+            <div>
+                <p>Add the items to the cart and book now</p>
+            </div>
+        </div>
+    </div>
+    <script src="./Script.js"></script>
+</body>
+</html>

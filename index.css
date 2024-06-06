@@ -1,0 +1,229 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(231, 229, 229);
+}
+nav{
+    display: flex;
+    padding: 15px 100px;
+    width: 100vw;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-weight: 900;
+    font-size: x-large;
+    
+}
+.nav-icon{
+    width: 30%;
+}
+.nav-icon ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 100%;
+    font-weight: 600;
+}
+.username{
+    display: flex;
+    align-items: center;
+    height: 80%;
+    border-radius:20px;
+    overflow: hidden;
+}
+.username h4{
+    background-color: lightblue;
+    color: blue;
+    padding: 5px 10px;
+}
+.username p{
+    background-color: rgb(237, 184, 184);
+    color: red;
+    height: 100%;
+    padding: 5px;
+}
+.main-container{
+    width:100%;
+    /* background-color: aqua; */
+    margin: auto;
+    padding: 20px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 45%;
+}
+.added-items{
+    background-color: white;
+    padding: 30px;
+    height: 35vh;
+    border-radius: 20px;
+}
+.added-items h3{
+    display: flex;
+    height: 14%;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    margin: auto;
+}
+.added-items div{
+    height: 70%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    /* background-color: aqua; */
+}
+.Service{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.Service tr{
+
+    color: blue;
+    border: none;
+
+}
+.Service tr th{
+    background-color: lightblue;
+    
+}
+.Service tr td{
+    border-bottom: 1px solid lightgrey;
+    padding:2px 32px;
+    color: black;
+    font-weight: 600;
+}
+.added-items footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-content: end;
+    height: 16%;
+    /* background-color: violet; */
+}
+
+.Booknow{
+    background-color: white;
+    padding: 30px;
+    margin-top:20px ;
+    border-radius: 20px;
+}
+.Booknow h2{
+
+}
+.fullname{
+    display: flex;
+    flex-direction: column;
+}
+.Booknow div label{
+    padding: 10px 0px;
+    font-weight: 600;
+}
+input{
+    padding: 8px 15px;
+    border: 1px solid rgb(8, 8, 95);
+    border-radius: 10px;
+}
+.emailphone{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+.emailphone div{
+    width: 50%;
+}
+.emailphone div label{
+    /* background-color: blueviolet; */
+    font-weight: 600;
+}
+.emailphone div input{
+    margin: 10px 0px;
+    width: 90%;
+}
+.Booknow div button{
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 0px;
+    border: none;
+    background-color: blue;
+    color:  white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+.right{
+    background-color: white;
+    width: 45%;
+    padding: 30px 30px 0px 30px;
+    border-radius: 20px;
+}
+.des h1{
+    margin: 10px 0px;
+}
+.des p{
+    margin: 8px 0px;
+}
+.services{
+    height: 60%;
+    /* background-color: brown; */
+    margin: 10px 0px;
+}
+.img{
+    width: 100%;
+    height: 70%;
+    /* background-color: pink; */
+    /* margin-top: 10px; */
+}
+.img img{
+    height: 200px;
+    width: 80%;
+    display: flex;
+    margin: auto;
+
+    /* background-color: aqua; */
+}
+.button{
+    /* background-color: red; */
+    height: 20%;
+    /* padding-left: 6vh; */
+    padding-top: 20px;
+}
+.button button{
+    width: 49.5%;
+    padding: 10px 40px;
+    border: none;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    /* margin: auto; */
+}
+.skip{
+    background-color: rgb(241, 187, 187);
+    color: red
+}
+.add{
+    background-color: rgb(164, 236, 164);
+    color: green;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.right div p{
+    /* background-color: bisque; */
+}
+.price-tag{
+    transform: translateX(-50px);
+}
+#status{
+    margin-top: 5px;
+    color: blue;
+}
